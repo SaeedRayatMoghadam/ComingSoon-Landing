@@ -96,7 +96,7 @@ body {
 
 }
 
-.socials a{
+.socials a {
     padding: 12px 15px 8px 15px;
     margin: 0 5px;
     border: 1px solid #fff;
@@ -106,7 +106,46 @@ body {
     transition: all .3s ease;
 }
 
-.socials a:hover{
+.socials a:hover {
     background-color: #0d6efd;
     border-color: rgba(255, 255, 255, .6);
+}
+
+
+
+/* <-- CONTACT --> */
+.contact hr {
+    width: 80px;
+    height: 5px;
+}
+
+.contact .card {
+    border-top: 4px solid #0d6efd;
+    border-bottom: 4px solid #0d6fed;
+    border-radius: .25rem;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.06);
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0 0 0 / 12%);
+    color: #fff;
+}
+
+
+.contact .card i {
+    font-size: 20px;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.contact .card i:hover {
+  background: #0d6efd;
+  border-color: #0d6efd;
+  color: #fff;
 }
